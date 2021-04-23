@@ -14,18 +14,16 @@ import emailUs from './components/pages/contactForm'
 
 function App() {
   return (
-    <>
-      <Router>
-        <ScrollToTop />
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/About-me' exact component={About} />
-          <Route path='/Email-me' exact component={emailUs} />
-          <Route path='*' component={NotFound} />
-        </Switch>
-      </Router>
-    </>
+    <Router>
+      <ScrollToTop />
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/About-me' exact component={About} />
+        <Route path='/Email-me' exact component={emailUs} />
+        <Route path='*' component={NotFound} />
+      </Switch>
+    </Router>
   );
 }
 export default App;
