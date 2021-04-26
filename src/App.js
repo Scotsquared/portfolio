@@ -1,13 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from "./components/navBar";
+import Navbar from "./components/Widgets/navBar";
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import whatIDo from './components/pages/What I Do';
 import NotFound from './components/pages/NotFound';
 import { Fab } from '@material-ui/core';
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/Widgets/ScrollToTop'
 import emailUs from './components/pages/contactForm'
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import emailjs from "emailjs-com";
-import '../contactForm.css'
+import '../Widgets/contactForm.css'
 
 
 export default function emailUs() {

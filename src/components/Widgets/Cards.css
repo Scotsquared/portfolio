@@ -1,0 +1,142 @@
+.cards {
+    background: #fff;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p{
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+  }
+  
+  .cards-wrapper {
+    position: relative;
+    margin: 50px 0 50px;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    
+  }
+  
+  .cards-items {
+    margin-bottom: 1000px;
+    text-decoration: none;
+    
+  }
+  
+  .cards-items {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+
+  }
+  
+  .card-item-link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    
+  }
+  
+  .card-item-pic-wrap {
+    position: relative;
+    padding-top: 67%;
+    overflow: hidden;
+    text-decoration: none;
+
+  }
+  
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  .card-item-pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 20px;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+  }
+  
+  .cards-item-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 140%;
+    max-height: 200%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+    padding: 10px;
+    
+    
+  }
+  
+  .cards-item-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .cards-item-info {
+    padding: 30px 30px 30px;
+  }
+  
+  .cards-item-text {
+    color: black;
+    font-size: 24px;
+    line-height: 24px;
+    
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content-blog-container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards-items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards-items {
+      margin-bottom: 2rem;
+    }
+  }
