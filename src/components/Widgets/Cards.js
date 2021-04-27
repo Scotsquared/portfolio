@@ -5,10 +5,29 @@ import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom'
 import '../footer/Footer.css'
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import SpacingGrid from './Grid'
+import { CardGiftcardSharp } from '@material-ui/icons';
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+    },
+    paper: {
+        height: 140,
+        width: 100,
+    },
+    control: {
+        padding: theme.spacing(2),
+    },
+}));
+
 function Cards() {
     return (
         <div className='cards'>
             <h1>Welcome to my portfolio </h1>
+
             <div className='cards-container'>
                 <div className='cards-wrapper'>
                     <ul className='cards-items'>
@@ -27,8 +46,8 @@ function Cards() {
                     </ul>
                 </div>
             </div>
-            <div>
-            </div>
+
+
 
         </div>
     )

@@ -1,5 +1,8 @@
 body{
     background: none;
+  min-width: 30rem;
+
+
 }
 
 .cards-item-text > a {
@@ -9,6 +12,7 @@ body{
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
     text-decoration: none;
+
     
   }
   .fa-github {

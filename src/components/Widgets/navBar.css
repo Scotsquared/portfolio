@@ -9,8 +9,8 @@
     top: 0;
     z-index: 999;
     margin: 0 auto;
-    min-width: 75vh;
-
+    margin-top: auto;
+    min-width: 30rem;
 
   }
   
