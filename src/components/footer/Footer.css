@@ -8,6 +8,8 @@
     margin: 0 auto;
     min-height: 40vh;
     margin-top: auto;
+    margin-right: 0 auto;
+    min-width: 75vh;
   }
   
   .footer-input {

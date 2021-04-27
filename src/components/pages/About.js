@@ -28,7 +28,7 @@ function About() {
                             text={<a target="_blank" href={"https://github.com/Scotsquared"}>Although I have been coding for only a short amount of time, I have learned quickly and effectivly to make quality apps and functional programs. To learn more about my experince feel free to check out my Github!
                                 <i class="fab fa-github fa-lg"></i>
                             </a>}
-                            label='Experince '
+                            label='Experience '
                         />
                     </ul>
                 </div>

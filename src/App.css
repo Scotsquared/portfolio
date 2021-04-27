@@ -3,6 +3,8 @@ html{
 }
 body {
   min-height: 100%;
+  min-width: 80vh;
+
 }
 * {
     box-sizing: border-box;
