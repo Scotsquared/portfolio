@@ -21,7 +21,6 @@ function About() {
                             text='I specialize in app devlopment, involving CSS,React,JS,JSON, and HTML. I keep high standards for what I do. I am always learning, and open to critisim.
                             My work ethic is unmatched because I will never stop working on a project! '
                             label='Me'
-                            path='/'
                         />
                         <Carditems
                             src="images/simple .png"
